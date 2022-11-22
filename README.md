@@ -1,6 +1,20 @@
 # PontoMais
 Aplicativo de gestão e controle de folha ponto
 
+# Alunos Participantes
+
+Henry Alexander Vaz Giarola – ID: 1142261467<br/>
+Gesse Felipe de Sá Taveira – ID: 1140190280<br/>
+Eduardo Dias Accordi – ID: 1142252307
+
+# Passo-a-passo para testar o aplicativo
+
+1) Preencher o e-mail e senha
+2) Clicar no botão Acessar Plataforma
+3) Na página Portal do colaborador testar se o botão marcar ponto libera o alert informando o ponto batido.
+4) Na página Folha de Ponto checar se o relatório está visível no centro da página
+5) Na página Justificar Ponto, ver se a tabela com as entradas aparece, e se o botão editar abre página de edição.
+
 # Visão de Produto
 	
 <p>O PontoMais a ser confeccionado para aparelhos móveis e desktop, tem como público alvo todos os colaboradores da empresa e gestores dos mesmos, os quais necessitam de uma solução interna de gerenciamento de ponto que facilite sua gestão,  na organização e transparência durante o processo de registro, e justificativa da folha de marcação de ponto.</p>
