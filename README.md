@@ -3,8 +3,8 @@ Aplicativo de gestão e controle de folha ponto
 
 # Alunos Participantes
 
-Henry Alexander Vaz Giarola – ID: 1142261467
-Gesse Felipe de Sá Taveira – ID: 1140190280
+Henry Alexander Vaz Giarola – ID: 1142261467<br/>
+Gesse Felipe de Sá Taveira – ID: 1140190280<br/>
 Eduardo Dias Accordi – ID: 1142252307
 
 # Passo-a-passo para testar o aplicativo
