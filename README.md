@@ -7,7 +7,7 @@ Henry Alexander Vaz Giarola – ID: 1142261467
 Gesse Felipe de Sá Taveira – ID: 1140190280
 Eduardo Dias Accordi – ID: 1142252307
 
-#Passo-a-passo para testar o aplicativo
+# Passo-a-passo para testar o aplicativo
 
 1) Preencher o e-mail e senha
 2) Clicar no botão Acessar Plataforma
