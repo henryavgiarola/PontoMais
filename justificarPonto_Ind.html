@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="folhaDePonto.css">
+    <link rel="stylesheet" href="justificarPonto_Ind.css">
     <script src="https://code.jquery.com/jquery-1.11.2.js"></script>
     <script type="text/javascript">
 		jQuery(window).load(function($){
@@ -20,9 +20,27 @@
     </div>
     <div class="bemVindo">Bem Vindo!</div>
     <hr>
-    <div class="mostrarFolhaPonto">
+    <div class="mostrarJustificativa">
         <div class="row">
-            <iframe src="arquivos/folha.pdf"></iframe>
+            <form action="justificarPonto.html" method="post">
+                <h2>Justificativa de Ponto</h2>
+
+                <div>
+                    <label for="nome">Data:</label>
+                    <input type="text" id="nome" value="21/11/2022" />
+                </div>
+                <div>
+                    <label for="horario">Horário:</label>
+                    <input type="text" id="horario" />
+                </div>
+                <div>
+                    <label for="msg">Motivo:</label>
+                    <textarea id="msg"></textarea>
+                </div>
+                <div class="button">
+                    <button type="submit">Enviar sua mensagem</button>
+                </div>
+            </form>
         </div>
     </div>
     <div class="barraLateral">
@@ -30,7 +48,7 @@
             <img src="imagens/meeting.png" align="right" width="250" height="290">
         </div>
         <table cellpadding="15px" id="menu">
-            <thead>
+            <thead id="menuTable">
                 <tr>
                     <th><a id="gestaoDePonto">Gestão de Ponto</a></th>
                 </tr>
@@ -39,7 +57,7 @@
                 <td><a id="outraPagina" href="portalDoColaborador.html">><i class='far fa-address-card' style='font-size:24px'></i><img src="imagens/employees.png" align="center" width="25" height="25">   Marcar o Ponto</a></td>
             </tr>
             <tr>
-                <td><a id="outraPagina" href="justificarPonto.html"></i><img src="imagens/employees.png" align="center" width="25" height="25">   Justificar o Ponto</a></td>
+                <td><a id="outraPagina" href="link3.htm"></i><img src="imagens/employees.png" align="center" width="25" height="25">   Justificar o Ponto</a></td>
             </tr>
             <tr>
                 <td><a id="paginaAtual"></i><img src="imagens/employees.png" align="center" width="25" height="25">   Folha Mensal</a></td>
